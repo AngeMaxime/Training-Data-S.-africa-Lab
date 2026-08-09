@@ -1,4 +1,4 @@
-# IBM HR Analytics — Employee Attrition & Performance
+# IBM HR Analytics, Employee Attrition & Performance
 
 A data science project analysing the [IBM HR Analytics Employee Attrition & Performance](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data) dataset, covering the full workflow from business framing through data inspection, cleaning, exploratory visualisation, and evidence-based HR insights.
 
