@@ -74,7 +74,7 @@ jupyter notebook IBM_HR_Attrition_Analysis.ipynb
 
 ## Author
 
-Prepared as part of [Learn Data Science the Smart Way](https://learndatascience.ai).
+Prepared By Ange Maxime TCHOUTANG
 
 ## License
 
