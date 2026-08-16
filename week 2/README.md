@@ -25,10 +25,10 @@ develop heart disease.
 ├── Week2_Heart_Disease_Feature_Engineering.ipynb   # Full notebook (code + outputs)
 ├── data/
 │   └── heart.csv                                    # Original dataset
-├── output/
+├── Data saved/
 │   ├── heart_cleaned.csv                             # Cleaned dataset (pre-encoding)
 │   └── heart_ml_ready.csv                            # Final machine-learning-ready dataset
-├── images/
+├── Results/
 │   ├── 01_boxplots_before.png
 │   ├── 02_boxplots_after.png
 │   ├── 03_age_histogram.png
@@ -37,7 +37,7 @@ develop heart disease.
 │   ├── 06_chestpain_countplot.png
 │   ├── 07_correlation_heatmap.png
 │   └── 08_feature_importance.png
-└── reports/
+└── Presentation/
     ├── Business_Understanding_Report.docx
     └── Data_Preprocessing_Report.docx
 ```
