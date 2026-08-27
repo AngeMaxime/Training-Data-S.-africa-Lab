@@ -1,8 +1,10 @@
-# HealthConnect Clinic — No-Show Prediction (Week 4)
+# HealthConnect Clinic - No-Show Prediction (Week 4)
 
-**Track:** AnalystLab Africa Experience Lab — Data Science Track
+**Track:** AnalystLab Africa Experience Lab - Data Science Track
+
 **Author:** Ange Maxime
-**Milestone:** Week 4 — Machine Learning Problem Definition & Data Assessment
+
+**Milestone:** Week 4 Machine Learning Problem Definition & Data Assessment
 
 ## Project Overview
 
