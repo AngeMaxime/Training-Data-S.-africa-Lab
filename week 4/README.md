@@ -25,7 +25,7 @@ model has been trained yet; that begins in Week 5.
 |---|---|
 | `HealthConnect_NoShow_Problem_Definition.ipynb` | **Main deliverable.** Executed Jupyter notebook containing the full problem definition, data assessment, data-quality checks, exploratory analysis (with charts), proposed target variable, candidate features, cancellation-handling approach, initial modelling approach, and key modelling considerations. |
 | `HealthConnect_Week4_Project_Summary.docx` | Concise Week 4 summary covering the problem addressed, resources used, key observations, proposed approach, key considerations, and proposed focus for Week 5. Complements the notebook rather than repeating it. |
-| 'HealthConnect_Week4_DataScience_MLProblemDefinition'| a concise document presenting the project, ideaws, exploratory observations and some conclusions |
+| `HealthConnect_Week4_DataScience_MLProblemDefinition`| a concise document presenting the project, ideaws, exploratory observations and some conclusions |
 | `HealthConnect_Appointment_Data.csv` | The raw dataset: 5,000 synthetic appointment records, 18 columns. Included alongside the notebook so it re-runs standalone. |
 | `HealthConnect_Data_Dictionary.xlsx` | Variable definitions, data types, examples, and notes for every column in the dataset. |
 | `HealthConnect_Clinic_Knowledge_Base.docx` | Clinic operating rules (hours, booking, cancellation, late-arrival policy) — the source used to sanity-check the dataset against real business rules. *(Original file supplied for the project; keep it in the same folder if you want to re-verify the business-rule cross-checks.)* |
