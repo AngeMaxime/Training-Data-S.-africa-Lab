@@ -1,8 +1,8 @@
 # HealthConnect Clinic — No-Show Prediction
 
-**Track:** AnalystLab Africa Experience Lab — Data Science Track
+**Track:** AnalystLab Africa Experience Lab | Data Science Track
 **Author:** Ange Maxime
-**Status:** Week 8 (final) complete — Final Model, Documentation & Presentation
+**Status:** Week 8 (final) complete Final Model, Documentation & Presentation
 
 ## Project Overview
 
@@ -17,7 +17,7 @@ AnalystLab Africa Experience Lab programme.
 |---|---|---|
 | 4 | Problem Understanding → Solution Planning | Defined the ML problem, assessed data quality, proposed target/features/approach. No model trained. |
 | 5 | Analysis → Initial Implementation | Data preparation, feature engineering, patient-grouped train/test strategy, first Logistic Regression + Random Forest baselines (ROC-AUC 0.678). |
-| 6 | Integration → Validation *(not run in this workspace — see note below)* | Sunday-appointment data-quality fix, `gender` dropped on fairness grounds, 5-fold CV adopted (ROC-AUC 0.685). |
+| 6 | Integration → Validation *(not run in this workspace see note below)* | Sunday-appointment data-quality fix, `gender` dropped on fairness grounds, 5-fold CV adopted (ROC-AUC 0.685). |
 | 7 | Testing → Refinement | Stability (10-split), overfitting, and full-sample fairness testing; `age` dropped on fairness evidence; first serialised model artefact produced and tested. |
 | 8 | Final Integration → Presentation | Resolved a multicollinearity finding, finalised the model, produced a fresh hand-off artefact, business interpretation, non-technical summary, and presentation materials. |
 
@@ -43,7 +43,6 @@ documented Week 6 summary as given, consistent with the assignment's
 | `HealthConnect_Appointment_Data.csv` | — | Original dataset, 5,000 records. **Never modified** by any notebook. |
 | `HealthConnect_Data_Dictionary.xlsx` | — | Variable definitions for the dataset. |
 | `HealthConnect_Clinic_Knowledge_Base.docx` | — | Clinic operating rules, used throughout to cross-check the data (e.g. the Sunday-closure anomaly). |
-| `LinkedIn_Post_Week5.md` | 5 | Draft LinkedIn post sharing Week 5 progress (professional-development requirement). |
 
 ## How to Run the Notebooks
 
@@ -77,11 +76,11 @@ risk_scores = model.predict_proba(new_appointments_df)[:, 1]  # see notebook §1
 | Excluded | `gender` (Wk6, fairness), `age` (Wk7, fairness), `historical_no_show_rate` (Wk8, multicollinearity), `waiting_time_minutes` (Wk4–5, leakage risk) |
 | CV ROC-AUC | 0.684 (± 0.011), consistent with Week 7's 0.688 ± 0.012 stability estimate |
 | Operating threshold | 0.44 (statistically stable; **not yet clinic-stakeholder-confirmed**) |
-| Suitable for | Risk-based triage — prioritising reminder calls/reschedule offers |
+| Suitable for | Risk-based triage, prioritising reminder calls/reschedule offers |
 | Not suitable for | Cancelled appointments, fully automated decisions, individual-level certainty, production use without re-validation on real data |
 
 **The project's key finding, across all eight weeks:** ceiling performance
-(~0.68 ROC-AUC) was reached early and never moved materially — every later
+(~0.68 ROC-AUC) was reached early and never moved materially every later
 refinement (Sunday exclusion, dropping `gender`/`age`/`historical_no_show_rate`)
 was about data quality, fairness, or interpretability, not chasing a
 higher score. That is the story told in the Week 8 notebook's decision
@@ -89,12 +88,12 @@ log and is the main message for the final presentation.
 
 ## Outstanding Items (Not Yet Resolved)
 
-1. `waiting_time_minutes` timing — needs a business-owner decision.
+1. `waiting_time_minutes` timing, needs a business-owner decision.
 2. The 0.44 operating threshold needs a clinic stakeholder's sign-off
    against real intervention costs.
 3. A residual (much-reduced) age-related fairness gap needs continued
    monitoring, not treatment as fully solved.
-4. Everything is built on **synthetic data** — must be re-validated
+4. Everything is built on **synthetic data**, must be re-validated
    against real HealthConnect operational data before any production use.
 5. This internship iteration has a single Data Science-track contributor;
    cross-track sections in Week 7–8 are documented, evidenced good-faith
