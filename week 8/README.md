@@ -1,4 +1,4 @@
-# HealthConnect Clinic — No-Show Prediction
+# HealthConnect Clinic | No-Show Prediction
 
 **Track:** AnalystLab Africa Experience Lab | Data Science Track
 **Author:** Ange Maxime
